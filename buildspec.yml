@@ -19,5 +19,7 @@ artifacts:
   files:
     - /var/www/html/index.html
     - appspec.yml
+    - /scripts/install_nginx.sh
+    - /scripts/start_nginx.sh
     
     
