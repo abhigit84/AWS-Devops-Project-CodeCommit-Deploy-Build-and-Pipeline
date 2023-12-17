@@ -6,6 +6,7 @@ phases:
       - echo installing nginx
       - sudo apt-get update
       - sudo apt-get install nginx -y
+      - sudo service nginx start
   
   build:
     commands:
@@ -18,4 +19,4 @@ artifacts:
   files:
     - /var/www/html/index.html
     - appspec.yml
-    - /scripts
+    
